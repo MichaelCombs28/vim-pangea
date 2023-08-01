@@ -6,7 +6,7 @@ Currently, only our redact service is available.
 
 ## Installation
 
-For [vim-plug](https://github.com/junegunn/vim-plug):
+**For [vim-plug](https://github.com/junegunn/vim-plug):**
 
 ```vim
 Plug 'MichaelCombs28/vim-pangea'
@@ -14,7 +14,16 @@ Plug 'MichaelCombs28/vim-pangea'
 
 Then run `:PlugInstall`.
 
-For native packages:
+Then add your Pangea Redact token to the `.vimrc` file
+```vim
+let g:pangea_token="<PANGEA_REDACT_TOKEN>"
+```
+
+> [!NOTE]  
+> Get a Pangea Redact token for free from [pangea.cloud](https://console.pangea.cloud/service/redact?utm_source=github&utm_medium=MichaelCombs28_vim-pangea) \
+> The token should look something like `pts_...`
+
+**For native packages:**
 
 ```bash
 
